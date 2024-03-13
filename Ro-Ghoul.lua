@@ -34,6 +34,8 @@ end
 
 DestroyRayfieldHub()
 
-wait(3)
-
-loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/z4gs/scripts/master/Ro-Ghoul%20Auto%20Farm.lua")))()
+    if game.PlaceId == 914010731 then
+ 
+ wait(3)
+    
+    loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/z4gs/scripts/master/Ro-Ghoul%20Auto%20Farm.lua")))()
